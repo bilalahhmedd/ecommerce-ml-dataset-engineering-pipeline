@@ -109,3 +109,81 @@ TechStack:
 * Docker
 * Python
 * Bash
+
+---------------------------------------------------------------------------------------------------------------------
+
+Pipeline Orchestration Layer
+
+Coordinates end-to-end execution of dataset creation workflows.
+
+Capabilities:
+
+Pipeline automation
+Workflow orchestration
+Execution management
+
+Technologies:
+
+Bash
+Python
+Repository Structure
+ecommerce-ml-dataset-engineering-pipeline/
+
+├── architecture/
+├── docs/
+├── sample_data/
+├── orchestration/
+
+├── 01_scraping_layer/
+├── 02_data_preprocessing/
+├── 03_annotation_pipeline/
+├── 04_pipeline_orchestration/
+
+└── README.md
+
+---------------------------------------------------------------------------------------------------------------------
+
+Technology Stack
+
+Python
+Scrapy
+Pandas
+SQL
+Docker
+Label Studio
+Bash
+Linux
+Jupyter Notebook
+
+---------------------------------------------------------------------------------------------------------------------
+
+Example Workflow
+
+Run scraper
+↓
+Generate raw dataset
+↓
+Clean & normalize data
+↓
+Create annotation project
+↓
+Perform annotation workflow
+↓
+Export validated dataset
+↓
+Produce ML-ready dataset
+
+---------------------------------------------------------------------------------------------------------------------
+
+Use Cases
+
+* Computer vision dataset preparation
+* E-commerce product classification datasets
+* Data annotation workflows
+* Dataset engineering pipelines
+* ML dataset preparation systems
+* Future Improvements
+* Automated scheduling
+* Dataset versioning
+* Monitoring pipelines
+* Cloud deployment support
