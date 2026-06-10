@@ -1,12 +1,12 @@
-An e-commerce machine learning data engineering pipeline to build reasonably good quality dataset to be served to ai training applications.
+An e-commerce machine learning data engineering pipeline to build reasonably good quality dataset to feed ai training applications.
 
-This project is implementation of kind of pipeline with steps including data acquisation, data cleaning, proudct annotation workflows and ML-reading dataset generation.
+This project demonstrates pipeline containing multiple stages (data acquisation, data processing, proudct annotation workflows and ML-reading dataset generation).
 
 ---------------------------------------------------------------------------------------------------------------------
 
 Overview
 
-Building reasonably good quality dataset for computer vision system is comprised of scattered stages.
+To build reasonably good quality dataset for computer vision system we need stages.
 
 * Data acquisition
 * Data cleaning and standardization
@@ -21,9 +21,9 @@ This project tells us how these different steps can be integrated into unified d
 
 Problem statement
 
-Computer vision ai applications highly depend on good quality datasets.
+Computer vision ai applications are dependent on good quality datasets.
 
-While, creation of good quality datasets requires scattered routines.
+While, creation of good quality datasets requires multiple stages.
 
 * Product data resides in multiple sources
 * Raw data has to be cleaned and normalized
