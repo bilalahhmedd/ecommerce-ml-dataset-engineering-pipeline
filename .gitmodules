@@ -1,0 +1,3 @@
+[submodule "01_scraping_layer/ebay-products-scraper"]
+	path = 01_scraping_layer/ebay-products-scraper
+	url = https://github.com/bilalahhmedd/ebay-products-scraper
