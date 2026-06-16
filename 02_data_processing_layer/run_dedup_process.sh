@@ -1,0 +1,1 @@
+sudo docker run -it --rm -v $PWD:/app knjcode/imgdupes --recursive --ngt --no-subdir-warning --sort filesize -m ebay-products-scraper phash 4 > scraped_duplicates.txt
