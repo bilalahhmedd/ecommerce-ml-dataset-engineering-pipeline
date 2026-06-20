@@ -129,7 +129,7 @@ Execution management
 
 ## Repository Structure
 
-ecommerce-ml-dataset-engineering-pipeline/ <b>
+ecommerce-ml-dataset-engineering-pipeline/
 
 ├── architecture/<br>
 ├── docs/ <br>
@@ -157,25 +157,25 @@ Jupyter Notebook<br>
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Example Workflow
+### Example Workflow
 <pre>
 Run scraper
         ↓
-Generate raw dataset
+Gather raw dataset
         ↓
 Clean & normalize data
         ↓
-Create annotation project
+Setup and deploy annotation app
         ↓
 Perform annotation workflow
         ↓
-Export validated dataset
+validate annotated datasets
         ↓
 Produce ML-ready dataset
 </pre>
 ---------------------------------------------------------------------------------------------------------------------
 
-Use Cases
+### Use Cases
 
 * Computer vision dataset preparation
 * E-commerce product classification datasets
