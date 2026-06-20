@@ -1,10 +1,10 @@
 An e-commerce machine learning data engineering pipeline to build reasonably good quality dataset to feed ai training applications.
 
-This project demonstrates pipeline containing multiple stages (data acquisation, data processing, proudct annotation workflows and ML-reading dataset generation).
+This project demonstrates pipeline containing multiple stages (data acquisation, data processing, proudct annotation workflows and ML-ready dataset generation).
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Overview
+## Overview
 
 To build reasonably good quality dataset for computer vision system we need stages.
 
@@ -13,13 +13,13 @@ To build reasonably good quality dataset for computer vision system we need stag
 * Feature engineering
 * Annotation workflows
 * Dataset validation
-* ML reading dataset preparation
+* ML ready dataset preparation
 
 This project tells us how these different steps can be integrated into unified data engineering pipeline for e-commerce product data.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Problem statement
+## Problem statement
 
 Computer vision ai applications are dependent on good quality datasets.
 
@@ -34,7 +34,7 @@ This repo demonstrates an end to end workflow for solving these challenges.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Pipeline architecture
+## Pipeline architecture
 
 E-commerce product listings
             ↓
@@ -54,20 +54,20 @@ ML-Ready Dataset Output
 
 ---------------------------------------------------------------------------------------------------------------------
 
-System components
+## System components
 
-Data Collection Layer
+### Data Collection Layer
 
 Process of acquiring product listing data from e-commerce store (ebay)
 
-Capabilities:
+#### Capabilities:
 
 * Product Scraping workflows
 * Product metadata extraction
 * Image collection pipelines
 * Structured raw dataset generation
 
-TechStack:
+#### TechStack:
 
 * Python
 * Scrapy
@@ -75,18 +75,18 @@ TechStack:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Data processing layer
+### Data processing layer
 
 Transforms raw data into standardized data
 
-Capabilities:
+#### Capabilities:
 
 * Datasets cleaning
 * Normalization pipelines
 * Feature engineering
 * Data validation workflow
 
-TechStack:
+#### TechStack:
 
 * Python
 * Pandas
@@ -94,7 +94,7 @@ TechStack:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Annotation layer
+### Annotation layer
 
 Layer of data labeling workflow for machine learning systems
 
@@ -103,7 +103,7 @@ Layer of data labeling workflow for machine learning systems
 * Dataset export pipeline
 * Dockerized annotation environment
 
-TechStack:
+#### TechStack:
 
 * Labelstudio
 * Docker
@@ -112,67 +112,67 @@ TechStack:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Pipeline Orchestration Layer
+### Pipeline Orchestration Layer
 
 Coordinates end-to-end execution of dataset creation workflows.
 
-Capabilities:
+#### Capabilities:
 
 Pipeline automation
 Workflow orchestration
 Execution management
 
-Technologies:
+#### Technologies:
 
-Bash
-Python
-Repository Structure
-ecommerce-ml-dataset-engineering-pipeline/
+* Bash
+* Python
 
-├── architecture/
-├── docs/
-├── sample_data/
-├── orchestration/
+## Repository Structure
 
-├── 01_scraping_layer/
-├── 02_data_preprocessing/
-├── 03_annotation_pipeline/
-├── 04_pipeline_orchestration/
+ecommerce-ml-dataset-engineering-pipeline/ <b>
 
-└── README.md
+├── architecture/<br>
+├── docs/ <br>
+├── sample_data/ <br>
+├── orchestration/<br>
+├── 01_scraping_layer/<br>
+├── 02_data_preprocessing/<br>
+├── 03_annotation_pipeline/<br>
+├── 04_pipeline_orchestration/<br>
+└── README.md<br>
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Technology Stack
+### Technology Stack
 
-Python
-Scrapy
-Pandas
-SQL
-Docker
-Label Studio
-Bash
-Linux
-Jupyter Notebook
+Python<br>
+Scrapy<br>
+Pandas<br>
+SQL<br>
+Docker<br>
+Label Studio<br>
+Bash<br>
+Linux<br>
+Jupyter Notebook<br>
 
 ---------------------------------------------------------------------------------------------------------------------
 
 Example Workflow
-
+<pre>
 Run scraper
-↓
+        ↓
 Generate raw dataset
-↓
+        ↓
 Clean & normalize data
-↓
+        ↓
 Create annotation project
-↓
+        ↓
 Perform annotation workflow
-↓
+        ↓
 Export validated dataset
-↓
+        ↓
 Produce ML-ready dataset
-
+</pre>
 ---------------------------------------------------------------------------------------------------------------------
 
 Use Cases
