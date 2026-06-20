@@ -35,7 +35,7 @@ This repo demonstrates an end to end workflow for solving these challenges.
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Pipeline architecture
-
+<pre>
 E-commerce product listings
             ↓
 Scrapy-based data extraction
@@ -51,7 +51,7 @@ Label studio Annotation Pipeline
 Annotated Dataset Validation
             ↓
 ML-Ready Dataset Output
-
+</pre>
 ---------------------------------------------------------------------------------------------------------------------
 
 ## System components
