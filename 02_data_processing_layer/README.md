@@ -3,7 +3,7 @@ Data processing is crucial stage of pipeline to produce quality data. This data 
 ## Overview
 
 Image data processing layer requires both automated scripts and mannual approach to visually inspect images data.
-It is segmented into two stages (deduplication data, inspection and validation). where each stage contains multiple disconnected utily scripts. 
+It is segmented into two stages (deduplication data, inspection and validation), where each stage contains multiple disconnected utily python scripts and notebooks. 
 
 1. deduplicate data
     * run dedup process on scrapped images data set to list set of duplicated images
