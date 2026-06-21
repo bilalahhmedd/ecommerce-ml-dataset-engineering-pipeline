@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 
-""" this script counts list of unique id accross csv files in multiple folder produced by scraper
+""" 
+this script counts list of unique id accross csv files in multiple folder produced by scraper
 """
 
 ids =[]
