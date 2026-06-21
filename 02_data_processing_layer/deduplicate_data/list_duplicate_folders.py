@@ -1,6 +1,7 @@
 import os
 
-""" a utility script to print duplicate folders on terminal
+""" 
+a utility script to print duplicate folders in terminal output
 """
 paths = []
 for root, directory, files in os.walk('./',topdown=False):

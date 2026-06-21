@@ -4,7 +4,8 @@ import numpy as np
 from collections import Counter
 import shutil
 
-""" util script to move duplicate data to trash folder
+""" 
+util script to move duplicate data to trash folder
 """
 
 def gen_path(duplicate_path):
