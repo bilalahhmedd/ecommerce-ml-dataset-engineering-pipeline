@@ -16,7 +16,7 @@ Data acquisition layer comprises two modules.
     * get data from web app history files
     * parse big csv and filter historical images data
 
-# Technologies
+## Technologies
 
 * python
 * scrapy
