@@ -112,35 +112,39 @@ Layer of data labeling workflow for machine learning systems
 
 ---------------------------------------------------------------------------------------------------------------------
 
-### Pipeline Orchestration Layer
+### Post annotation and data validation layer
 
-Coordinates end-to-end execution of dataset creation workflows.
+Layer of scripts and notebooks to inspect, validate and curate annotated dataset.
 
-#### Capabilities:
+* Annotation data parsers
+* Annotators performance analysis
+* Annotations visual sample inspection
 
-Pipeline automation
-Workflow orchestration
-Execution management
+#### TechStack:
 
-#### Technologies:
-
-* Bash
 * Python
+* Plotly-dash
+* Bash
+* Pandas
+* Json
+
+---------------------------------------------------------------------------------------------------------------------
 
 ## Repository Structure
-
+<pre>
 ecommerce-ml-dataset-engineering-pipeline/
-
-├── architecture/<br>
-├── docs/ <br>
-├── sample_data/ <br>
-├── orchestration/<br>
-├── 01_scraping_layer/<br>
-├── 02_data_preprocessing/<br>
-├── 03_annotation_pipeline/<br>
-├── 04_pipeline_orchestration/<br>
-└── README.md<br>
-
+├── 00_pre_data_aquisition_stage
+├── 01_scraping_layer
+├── 02_data_processing_layer
+├── 03_annotation_layer
+├── 04_post_annotation_data_validation
+├── 05_data_serving_layer
+├── architecture
+├── docs
+├── README.md
+├── sample_data
+└── utils
+</pre>
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Technology Stack
