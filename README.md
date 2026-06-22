@@ -6,7 +6,7 @@ This project demonstrates pipeline containing multiple stages (data acquisation,
 
 ## Overview
 
-To build reasonably good quality dataset for computer vision system we need stages.
+Building good quality dataset for computer vision system requires following multiple steps.
 
 * Data acquisition
 * Data cleaning and standardization
@@ -21,9 +21,7 @@ This project tells us how these different steps can be integrated into unified d
 
 ## Problem statement
 
-Computer vision ai applications are dependent on good quality datasets.
-
-While, creation of good quality datasets requires multiple stages.
+Computer vision ai applications are dependent on good quality datasets. Prdoucing such datasets process has following challenges.
 
 * Product data resides in multiple sources
 * Raw data has to be cleaned and normalized
@@ -56,16 +54,17 @@ ML-Ready Dataset Output
 
 ## System components
 
-### Data Collection Layer
+### Data Acquisition Layer
 
 Process of acquiring product listing data from e-commerce store (ebay)
 
 #### Capabilities:
 
-* Product Scraping workflows
-* Product metadata extraction
-* Image collection pipelines
+* Product listing Scraping workflow
+     * Product metadata extraction
+     * Image collection pipelines
 * Structured raw dataset generation
+     * Data extraction from web app listing raw data
 
 #### TechStack:
 
@@ -82,9 +81,12 @@ Transforms raw data into standardized data
 #### Capabilities:
 
 * Datasets cleaning
+     * Images deduplication
+     * Filtering unique set of ebay listing
 * Normalization pipelines
-* Feature engineering
+     * good quality images filtering
 * Data validation workflow
+     * Images visual sampling and inspection
 
 #### TechStack:
 
@@ -134,7 +136,7 @@ Layer of scripts and notebooks to inspect, validate and curate annotated dataset
 <pre>
 ecommerce-ml-dataset-engineering-pipeline/
 ├── 00_pre_data_aquisition_stage
-├── 01_scraping_layer
+├── 01_data_acquisition_layer
 ├── 02_data_processing_layer
 ├── 03_annotation_layer
 ├── 04_post_annotation_data_validation
