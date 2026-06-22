@@ -136,7 +136,7 @@ Layer of scripts and notebooks to inspect, validate and curate annotated dataset
 <pre>
 ecommerce-ml-dataset-engineering-pipeline/
 ├── 00_pre_data_aquisition_stage
-├── 01_scraping_layer
+├── 01_data_acquisition_layer
 ├── 02_data_processing_layer
 ├── 03_annotation_layer
 ├── 04_post_annotation_data_validation

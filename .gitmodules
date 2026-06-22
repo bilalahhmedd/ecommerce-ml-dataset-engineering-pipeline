@@ -1,5 +1,5 @@
 [submodule "01_scraping_layer/ebay-products-scraper"]
-	path = 01_scraping_layer/ebay-products-scraper
+	path = 01_data_acquisition_layer/ebay-products-scraper
 	url = https://github.com/bilalahhmedd/ebay-products-scraper
 [submodule "03_annotation_layer/annotation-pipeline"]
 	path = 03_annotation_layer/annotation-pipeline
